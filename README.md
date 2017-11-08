@@ -13,6 +13,6 @@ python main.py
 ```
 
 ### Example
-![alt text](https://img.youtube.com/vi/ZQ_Mp2PuBTQ/0.jpg)](https://www.youtube.com/watch?v=ZQ_Mp2PuBTQ)
-![alt text](https://img.youtube.com/vi/ncpF2VpZXQ4/0.jpg)](https://www.youtube.com/watch?v=ncpF2VpZXQ4)
+[![alt text](https://img.youtube.com/vi/ZQ_Mp2PuBTQ/0.jpg)](https://www.youtube.com/watch?v=ZQ_Mp2PuBTQ)
+[![alt text](https://img.youtube.com/vi/ncpF2VpZXQ4/0.jpg)](https://www.youtube.com/watch?v=ncpF2VpZXQ4)
 
