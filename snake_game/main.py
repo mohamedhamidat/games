@@ -78,13 +78,13 @@ def message_display(text):
     game_loop()
 
 def crash(x, y):
-    #car_crash = pygame.image.load('images/carcrash.png')
-    #game_display.blit(car_crash, ((x - 45), (y - 30)))
-    #crash_sound = pygame.mixer.Sound("music/crash.wav")
-    #pygame.mixer.Sound.play(crash_sound)
+    car_crash = pygame.image.load('../car_game/images/carcrash.png')
+    game_display.blit(car_crash, ((x - 45), (y - 30)))
+    crash_sound = pygame.mixer.Sound("../car_game/music/crash.wav")
+    pygame.mixer.Sound.play(crash_sound)
     pygame.mixer.music.stop()
     largeText = pygame.font.SysFont("comicsansms",90)
-    textSurf, textRect = text_object("Yo'r dead :( :('!", largeText)
+    textSurf, textRect = text_object("Sorry :( :('!", largeText)
     textRect.center = ((display_width/2) , (display_height/4))
     game_display.blit(textSurf, textRect)
 
@@ -187,8 +187,8 @@ def game_loop():
     snake  = Snake()
     get_food()
 
-    #pygame.mixer.music.load('music/coffee_stains.wav')
-    #pygame.mixer.music.play(-1)
+    pygame.mixer.music.load('../car_game/music/coffee_stains.wav')
+    pygame.mixer.music.play(-1)
 
     score_play = 0
 
