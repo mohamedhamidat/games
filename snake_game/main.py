@@ -195,7 +195,7 @@ def game_loop():
     snake.x = scale 
     snake.y = scale * 2
 
-    snake.xspeed = 0
+    snake.xspeed = 1
     snake.yspeed = 0
 
     gameExit = False
