@@ -228,9 +228,7 @@ def game_loop():
         #top
         line(scale, scale, display_width, scale, black)
         #buttom
-        line(30, display_height - scale, display_width, scale, black)
-        
-        #line(display_width - scale, 0, scale, display_height, black)       
+        line(30, display_height - scale, display_width, scale, black)   
        
         rect(food[0], food[1], cube_width, cube_height, red)
 
@@ -244,13 +242,13 @@ def game_loop():
              print(snake.x, snake.y)
              score_play = 0
 
-        #crash if it eats it self 
 
         if snake.can_eat(food):
             get_food()
             score_play += 1
             score_game += 1
 
+        #crash if it eats it self 
         if snake.is_dead():
             crash(snake.x, snake.y)
         snake.update(scale)
