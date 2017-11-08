@@ -14,5 +14,5 @@ python main.py
 
 ### Example
 ![alt text](https://www.youtube.com/watch?v=ZQ_Mp2PuBTQ)
-![alt text]https://www.youtube.com/watch?v=ncpF2VpZXQ4)
+![alt text](https://www.youtube.com/watch?v=ncpF2VpZXQ4)
 
