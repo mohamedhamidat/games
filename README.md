@@ -12,7 +12,10 @@ To run the code, simply run the `main.py` file using Python
 python main.py
 ```
 
-### Example
+### Examples
+### Snake game
 [![alt text](https://img.youtube.com/vi/ZQ_Mp2PuBTQ/0.jpg)](https://www.youtube.com/watch?v=ZQ_Mp2PuBTQ)
+
+### Car game
 [![alt text](https://img.youtube.com/vi/ncpF2VpZXQ4/0.jpg)](https://www.youtube.com/watch?v=ncpF2VpZXQ4)
 
