@@ -41,9 +41,10 @@ class Snake():
         pygame.draw.rect(game_display, color, [thingX, thingY, thingW, thingH])
     
     def is_dead(self):
-        for i in range(len(self.tail)):
-            position = self.tail[i]
-            if self.x == position[0] and self.y == position[1]:
-                return True
+        """
+        check if new position of snake already exists in tail snake
+        """
+        if [self.x, self.y] in self.tail: 
+            return True
         return False
         
