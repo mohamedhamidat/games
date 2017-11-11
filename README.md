@@ -1,5 +1,5 @@
 ### Hi everyone 
-In this repo you will finad simple games developed using pygame and python 3
+In this repo you will find simple games developed using pygame and python 3
 
 
 ### Code Requirements
